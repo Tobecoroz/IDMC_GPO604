@@ -1,0 +1,10 @@
+"//".*  : Todo despues de // es un comentario hasta el final de la linea.  
+"f"  : Solo "f" representa una declaracion de un float.  
+"i"  : Solo "i" representa una declaracion de un int.  
+"p"  : Solo "p" representa un print.  
+"="  : Solo "=" representa una asignacion.  
+"+"  : Solo "+" representa una suma.  
+[0-9]+  : Minimo un digito del 0-9, representa un numero int (inum).  
+[0-9]*"."[0-9]+  : Cualquier cantidad de digitos del 0-9, seguido de un punto y minimo un digito del 0-9, representa un float (fnum).  
+([a-eg-zA-Z][a-zA-Z0-9]*)  : Un id comienza con una letra de la a-zA-Z, excluyendo "f" y "i", seguido de cualquier cantidad de letras o numeros.  
+[ \t\n]+  : Ignorar espacios en blanco.
